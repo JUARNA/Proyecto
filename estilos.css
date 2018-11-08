@@ -1,0 +1,89 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cajaBoton{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    text-decoration: none;
+    padding: none;
+    font-family: arial;
+    padding-left: none;
+    padding-right: none;
+    font-size: 25px;
+    color: black;
+    background-color: #00c3ff;
+}
+
+.boton:hover{
+    color: #00c3ff;
+    background-color: #6cdcff;
+    text-decoration: none;
+}
+
+.cajaInput{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 600px;
+    height: 70px;
+    border-radius: 6%;
+    text-decoration: none;
+    padding: none;
+    font-family: arial;
+    padding-left: none;
+    padding-right: none;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+
+}
+
+.cajaLogo{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 600px;
+    height: 70px;
+    border-radius: 6%;
+    text-decoration: none;
+    padding: none;
+    font-family: arial;
+    padding-left: none;
+    padding-right: none;
+    font-size: 25px;
+    color: black;
+    background-color: #ffffff;
+
+}

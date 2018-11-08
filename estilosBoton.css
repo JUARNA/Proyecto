@@ -1,0 +1,38 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cajaBoton{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 500px;
+    height: 500px;
+    border: 15px #00abd3 solid;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: none;
+    font-family: arial;
+    padding-left: none;
+    padding-right: none;
+    font-size: 25px;
+    color: black;
+    background-color: #00c3ff;
+}
+
+.boton:hover{
+    color: #00c3ff;
+    background-color: #6cdcff;
+    text-decoration: none;
+}
